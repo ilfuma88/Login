@@ -5,7 +5,7 @@ jdk:
 addons:
  apt:
     packages:
-         -ant
+         ant
 
 script: 
      -ant build

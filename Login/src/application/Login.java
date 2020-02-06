@@ -24,7 +24,7 @@ import javafx.stage.Stage;
 
 public class Login extends Application {
   
- String user = "JavaFX2";
+ String user = "Riccardo";
  String pw = "password";
  String checkUser, checkPw;
   

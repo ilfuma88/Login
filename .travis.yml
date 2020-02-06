@@ -1,15 +1,11 @@
 dist: xenial
 language: java
+jdk:
+	-openjdk13
 addons:
   apt:
     packages:
-      - ant
-jdk:
-	-oraclejdk8
+	-ant
+
 script: 
 	-ant build
-
-addons:
-  apt:
-    packages:
-      - oracle-java8-installer

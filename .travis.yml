@@ -6,4 +6,10 @@ addons:
       - ant
 jdk:
 	-oraclejdk8
-script: antbuild
+script: 
+	-ant build
+
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer
